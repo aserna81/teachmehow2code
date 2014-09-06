@@ -18,3 +18,18 @@
  body{
  	padding: 30px;
  }
+
+ footer{
+	font-size: 0.75em;
+	text-align: center;
+	clear: both; /* footer not affected by float options*/
+	padding-top: 50px;
+	color:#ccc;
+}
+
+/* is much better for resolution to decrease the size of the image on the css*/
+.social_icon {
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+}
